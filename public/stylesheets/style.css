@@ -1,0 +1,623 @@
+/*  Style CSS */
+
+/* Charlyn Woodruff - Dec. 1, 2022 - CIT 187 "CSS Final Submission" */
+
+
+/* Sets the html background image,  image repeat set to repeat and background size set to 16em units*/
+html{
+    background-image: url("https://i.postimg.cc/jjPKw8YR/pngegg-rose.jpg");
+    background-repeat: repeat;
+    background-size: 16em;
+}
+
+  /*============================================== BODY, HEADER, MAIN, MAIN & DIV PARAGRAPHS CSS ==============================================*/
+
+/* Sets the Body background color, border style  to solid and color, border width,  and  border radius to round corners.* font size set to 1 vw to make
+viewport width set to 1% of the visible screen*/
+body{
+    background-color: #76a0fb;
+    border-style: solid;
+    border-color: #76a0fb;
+    border-width: 4em;
+    border-radius: 4em 4em 4em 4em;
+    font-size: 1vw;
+    max-width: 82%; 
+    min-width: 40em;
+    margin-top: 4%; 
+    margin-left: auto;
+    margin-right: auto;
+   
+/* Sets the cursor to a customized cursor and will display on all pages while over the body and auto set it the automatic cursor if the customized cursor
+is not available in the browser*/
+    cursor: url("https://i.postimg.cc/05TLd85x/pawprint3.png"), auto;
+}
+
+/* Sets the header background color, font family, font style, font size, and font weight*/
+header{
+    background-color:  #76a0fb;
+    font-family:'Allura', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px;  
+}
+
+/* Sets the main background color, border style to solid, border color,and border width*/
+main{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: hsl(228, 94%, 33%);
+    border-width: 0.4em;
+    clear:left;
+    margin:0px;
+    padding: 0px;
+}
+
+p{
+    background-color:white; 
+    margin: 0px;
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;    
+    text-indent: 1em;
+    font-size: .5em; 
+    padding: 0.5em;
+    font-weight: normal;
+    
+}
+
+/*========================================================  NAVIGATION CSS  ==================================================================*/
+
+/* Sets the navigation background color, list style type to none to remove the bullets, sets the font family and the font size to 
+2.2 viewport of the visible screen*/
+nav{
+    padding: 0px;
+}
+
+ul{
+    padding:0px;
+    margin: 0.8em 0em 0.5em 0em;
+}
+
+li{
+    background-color: #fb7676;
+    list-style-type: none;
+    font-family: 'Great Vibes','Birthstone Bounce', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2vw;  
+    float:left;
+   
+}
+
+/* Set the ul background color to light blue */
+
+/* Sets the navigation link background-color to dark blue, sets the text decoration and alignment to center the text, and the font size to 2.2 viewport,
+ text color to white, padding on all sides set to 0.3em except left which is set to 0em, border radius to round the corners set to 0.1em and cursor 
+ style image to a heart and reverts to the automatic cursor when the customized one is not supported in the browser */
+ a {
+    width: 16%;
+    float:left;
+    background-color: hsl(228, 94%, 33%);
+    font-family: 'Great Vibes','Birthstone Bounce', Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+    font-size: 2.2vw;
+    color: #f7f8fb;
+    cursor: url("https://i.postimg.cc/R0gZr1FS/heart.png"), auto;
+    display: block;
+    padding: 0.3em 0.3em 0em 0.3em;
+    border-radius: 0.1em;
+    margin: 0em 0.4em 0.5em 0.6em;
+ }
+
+
+/* Sets all the navigation link a:hover sets the  background color to blue*/
+a:hover {
+    background-color:hsl(228, 94%, 33%);;
+    border: solid rgb(200,200,200) .1em;
+    display:block; 
+    padding: 0.1em 0.2em 0.1em 0.2em;
+    border-radius: 0.1em;
+}
+
+/* Sets all li a:visited text color of the visited links */
+a:visited {
+    color: #86b1ff;   
+}
+
+
+/*=======================================================  ID ATTRIBUTES CSS  ===========================================================*/
+
+/* Sets the background-color, font family, font size, text shadow and text-align center for h1 id website on each page*/
+#website {
+    background-color:#76a0fb; 
+    font-family: 'Birthstone Bounce', Georgia, 'Times New Roman', Times, serif;
+    font-size: 7vw;
+    text-shadow:rgb(244, 244, 246) 0em 0.1em 0.1em; 
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+/* Sets the first letter id attributes sets the font family and font size*/
+#welcome::first-letter, #about::first-letter, #schedule::first-letter, #photographs::first-letter, #movies::first-letter {
+    font-family: 'Great Vibes','Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+/* Sets the font family, text align center and font size for each h1 id attributes on each page.*/
+#welcome,#about,#schedule,#photographs,#movies {
+    background-color:#76a0fb; 
+    font-family: 'Great Vibes','Times New Roman', Times, serif;
+    text-align: center;   
+    font-size: 2em;    
+}
+
+/* Sets the CSS for id elements on each page , sets the font family, text indent to 1em, font size to 1.1em and padding on all side set to 0.5em*/
+#photos, #intro, #about_me, #dream, #movie_paragraph, #book_paragraph {
+    background-color:#76a0fb; 
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;    
+    text-indent: 1em;
+    font-size: 1em; 
+    padding: 0.5em;
+    margin-bottom: 1.1em;
+}            
+
+
+/* Sets the header id "home_info" on the home page to have box shadow effect.*/
+#home_info {
+    box-shadow: 3px 3px 8px 3px rgb(117, 117, 117); 
+}
+
+/* Sets the CSS for certain id elements font family and font size on the course schedule and home page*/
+#html , #css {
+    font-family: 'Times New Roman', serif;
+    font-size: 1em;
+    padding: 8px;
+    text-align: left;
+    text-indent: 10px; 
+}
+
+/* Sets the CSS for certain id elements for the text to align to the left on the home page*/
+#WVNCC{
+    font-family: 'Times New Roman', serif;
+    font-size: 1em;
+    margin: 15px;
+}
+
+/*=========================================================== H1 H2, H3, H4 CSS  =================================================================*/
+h1 {
+    margin: 0.5em 0em 0.5em 0em;
+}
+/* Sets the h2 background color, font family, font size, font variant, and text align to center the text*/
+h2 {
+    background-color: rgb(200,200,200);
+    font-family: 'Great Vibes','Times New Roman', serif;
+    font-size: 1.8em;
+    font-variant: normal;
+    text-align: center;
+    padding: 0em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+/* Sets the h3 and h4 font family, font size and text decoration to underline the text */
+h3 , h4 {
+    font-family: 'Allura','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.2em;
+    text-decoration-line: underline;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+ /*================================ SECTION, DIV, ARTICLE, SECTION_CONTENT & ARTICLE_CONTENT PARAGRAPHS & ARTICLE HEADER CSS ==============================*/
+
+/* Sets the class article and section content paragraphs background color, font family, box shadow, font size, text indent, font size, and word spacing  */
+.article_content p, .section_content p {
+    background-color: rgb(255, 254, 254);   
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif; 
+    box-shadow: 3px 3px 2px 2px rgb(197, 197, 198);
+    text-indent: 1em;
+    font-size: 0.9em; 
+    word-spacing: 0.4em;   
+} 
+/* Sets the class "article_content" paragraph padding in percentages on each side and sets the right and left margin to auto to center the content*/
+.article_content p {
+    padding: 1% 5% 1% 5%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Sets the class "section_content" paragraph padding in percentages on each side and sets the right and left margin to auto to center the content*/
+.section_content p {
+    padding: 2% 5% 1% 5%;
+    margin-left: auto;
+    margin-right: auto; 
+}       
+.author{
+    background-color: #76A0FB;
+    text-align: left;
+    font-size: 1.1em;
+    text-indent: 10px;
+    margin: 16px 5px 15px 5px;
+    padding: 3px 1px 3px 1px;
+  }
+  
+/* Sets the section background color and overflow to hidden*/
+section {
+    background-color:#76A0FB;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+/* Sets the div background-image to a url image, background-repeat to repeat, background image size to 11.5 em and 
+sets the background image position*/
+div {
+    background-image: url("https://i.postimg.cc/jjPKw8YR/pngegg-rose.jpg");
+    background-repeat: repeat;
+    background-size: 9.5em;
+    background-position: 2em 2em;  
+    padding: 1em;
+    margin: 0px;
+}
+
+
+/* Sets the div and article padding all sides of 1em*/
+article {
+    background-color:rgb(200,200,200);
+    margin: 20px;
+    padding: .1%;
+}
+
+ /*====================================================  Schedule Page Table, Columns & Rows CSS  ===============================================*/
+ 
+ /* Sets the CSS for the table element of text align center and border style solid black of 0.1 em , Sets the CSS table width of 100%, and border 
+ collapse set to collapse to get rid of the extra space in between cells, Sets the CSS width of 350px and height of 75px for the table header in the table */
+ table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+/* Sets the CSS for the column element of the background-color to dark blue*/
+#column {
+    background-color: hsl(221, 83%, 40%);
+}
+
+/* Sets the CSS for the table head element text color to white*/
+thead {
+    color: white;
+}
+
+/* Sets the CSS for the table body element background-color to blue and the text color to white*/
+tbody {
+    background-color: hsl(221, 96%, 68%);
+    color: white;
+}
+
+/* Sets the CSS for the class "label" table data elements background-color  to white*/
+.label {
+    background-color: white;
+}
+
+/* Sets the CSS for the table data hover elements background-color to blue and the text color to white*/
+td:hover {
+    background-color: hsl(221, 83%, 40%);
+    color: white;
+}
+
+/* Sets the CSS for the table header elements text color to white, vertical align line to middle, bottom border to solid black 0.1 em
+and right border to solid black, 0.1 em and the bottom right set to the same*/
+th {
+    color: white;
+    vertical-align: middle;
+    border-left: 0.1em solid black;
+    border-right: 1px solid black;
+    border-bottom: 0.1em solid black;
+    width: 350px;
+    height: 85px;
+}
+
+/* Sets the CSS for the table data to background-color of gray, right border, left border, and bottom border to solid black 0.1 em
+ and text color to black, Sets the CSS padding top and bottom of 8px for the table data elements in the table */
+ td {
+    background-color: rgb(200, 200, 200);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Sets the CSS for the table foot and table foot data to background-color of blue, text color to white, font size  to 1.1 em
+ and font weight to bold. */
+tfoot, tfoot td {
+    background-color: hsl(221, 83%, 40%);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/*=========================================================  Photo Page Image CSS  ==============================================================*/
+
+/* Sets The CSS for class section content images background image to a linear gradient background color to light blue, background color is set 
+to blue in case the linear is not supported in the browser and border set to 0.2 em solid dark blue.*/
+.section_content img {
+    background-image: linear-gradient(white,rgb(48, 98, 204));
+    background-color: #76a0fb;
+    border: 0.2em solid hsl(228, 94%, 33%);    
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+/* Sets the CSS for The figure elements background image to a linear gradient. The background color to a light blue and 
+border to solid line dark blue of 0.3em and font size set to 1 viewport of the visible screen Sets the CSS for the figure elements of float 
+to the left, width of 30%, height of 100%, margin set to 4em on top and 1em on all other sides,padding set to 1em  on all sides, and 
+border-radius of 1em on all sides */
+figure {
+    background-image: linear-gradient(white,rgb(48, 98, 204));
+    background-color: #76a0fb;
+    border: 0.4em solid hsl(228, 94%, 33%) ;
+    font-size: 1vw;
+    float:left;
+    width: 30%;
+    height: 100%;
+    margin: 4em 1em 1em 1em;
+    border-radius: 2em;
+    padding: 1em;
+}
+ 
+/* Sets the CSS for the figcaption elements background image to a url image, background size to 7 em, background repeat to repeat, font weight set to bold,
+text shadow setting for the shadow around the text inside the figcaption, text color set to dark blue, font style to italic, font size to 1.3em
+ and text align to center.Sets figcaption elements of 0.7em padding on all sides and border-radius of 1 em to round the corners */
+figcaption {
+    background-image: url("https://i.postimg.cc/jjPKw8YR/pngegg-rose.jpg");
+    background-size: 7em;
+    background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(16, 16, 16);
+    text-shadow: 8px 4px 10px rgb(223, 223, 225), 2px 2px 15px rgb(102, 129, 240), 1px 1px 5px rgb(15, 64, 224);
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.7em;
+    border-radius: 1em;
+  }
+
+/* Sets the CSS for the image id elements on the photos page for the square figure images, sets the background image to a linear gradient, sets background 
+size to 7 em, sets background repeat to repeat and set the border to solid line, dark blue of 0.3 em* and the border radius to 10% to round the edges*/
+#square {
+    background-image: linear-gradient(white,rgb(48, 98, 204));
+    background-size: 7em;
+    background-repeat: repeat;
+    border: 0.3em solid hsl(228, 94%, 33%);
+    border-radius: 10%;
+}
+
+/* Sets the CSS for the figcaption image id element meme to font size of 2em and the text color to white */
+#meme {
+    font-size: 2em;
+    color:rgb(12, 12, 12);
+}
+
+.photo_page{
+    background-color: white;
+}
+
+#photo {
+    font-size: 1.2em;
+}
+/*=======================================================  REVIEWS PAGE FORM CSS  ===========================================================*/
+
+/* Sets the CSS for the form background-color of blue and the cursor to auto for the pointer cursor when over the form section on the reviews page */
+
+
+/* Sets the CSS for the fieldset background color to blue, border style to groove, border width of 0.3em, and border color to dark blue on the reviews page ,
+Sets the CSS for the fieldset float to float left, width set at 46%, box-sizing to border box, margin of 1em and padding set to 1em on the bottom and 
+left side on the reviews page*/
+fieldset {
+    display:block;
+    background-color: #a8ccff;
+    border-width: 0.2em;
+    border-color:  hsl(228, 94%, 33%); 
+    border-radius: 1em;
+    float:left;
+    width:45%;
+    margin: 0.5em 0.5em 0em 0.5em; 
+    padding: 0.5em 0.5em 0.5em 1em;
+    cursor: auto;
+}
+
+/* Sets the CSS for the fieldset paragraph id of "review_page" , sets the background color to blue on the reviews pageSets the CSS for the fieldset paragraph 
+id of "review_page" , sets the padding to 5px on all sides and the margin set to 0.2em on the reviews page,  */
+.review_page {
+    background-color:#a8ccff;  
+    
+}
+
+/* Sets the CSS for the legend of the fieldsets , sets the background color,text color to white, font weight to bold, font size to 1.2em, and the border radius 
+is set to 0.2em to round the corners of the background of the legend element on the reviews page and the padding to 0.4 em on all sides */
+legend {
+    background-color: hsl(228, 94%, 33%);
+    color:white;
+    font-weight: bold;
+    font-size: 0.7em;
+    border-radius: 0.2em;
+    padding: 0.2em;
+}
+
+/* Sets the CSS for the class "block" for the label inside  of the fieldset , set display to display as block elements, width is set to 25%, padding is set to
+0.5em on the left side only and float set to float the element to the left on the reviews page */
+label{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.4em;
+    width: 25%;
+    float:left;
+    margin-top: 10px;
+    padding: 5px 0px;
+   
+}
+
+/* Sets the CSS for the textarea element of the form, sets display to display as block elements, width is set to 70%, height is set to 100 px, padding is set 
+to 1em on all sides of the textarea on the reviews page */
+textarea {
+    display:block;
+    width: 70%;
+    height: 150px;
+    padding: 1em;
+   
+}
+
+/* Sets the CSS for the id "submit_buttons", sets the background color to transparent of the element on the reviews page, Sets the CSS for the 
+id "submit_buttons", sets to clear the left float, padding is set to 1em for the right and left sides of the element and the 
+margin is set to 0.8em on all sides of the element on the reviews page  */
+.submit_buttons{
+    background-color: transparent;
+    clear:left;
+    padding: 0em;
+    margin: 0.8em;
+}
+
+/* Sets the CSS for the input type  "text" of the form for each type to focus, when clicked on it will turn the background inside the input box to a gray color 
+in the form on the reviews page */
+input[type=text]:focus {
+    background-color: rgb(173, 187, 230);
+}
+/* Sets the CSS for the input type "date" of the form for each type to focus, when clicked on it will turn the background inside the input box to a gray color 
+in the form on the reviews page */
+input[type=date]:focus {
+    background-color: rgb(173, 187, 230);
+}
+/* Sets the CSS for the input type of "email" the form for each type to focus, when clicked on it will turn the background inside the input box to a gray color 
+in the form on the reviews page */
+input[type=email]:focus {
+    background-color: rgb(173, 187, 230);
+}
+/* Sets the CSS for the input type "telephone" of the form for each type to focus, when clicked on it will turn the background inside the input box to a gray color 
+in the form on the reviews page */
+input[type=tel]:focus {
+    background-color: rgb(173, 187, 230);
+}
+input[type=radio]{
+    vertical-align:text-top;
+    margin-top: 10px;
+ }
+
+/* Sets the CSS for the input type "invalid" of the form, it puts a red shadow box around the input boxes, puts the x image in the right position of the box,
+ set  the background size of the image to contain it within the input box  and background repeat to no repeat of the image
+in the form on the reviews page */
+input:invalid{
+    box-shadow: 0em 0em 0.1em 0.1em red;
+    background-image: url(x.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+select{
+    width: 80px;
+    text-indent: 5px;
+}
+/* Sets the CSS for the input type "valid" of the form, it puts a green shadow box around the input boxes, puts the check image in the right position of the box,
+ set  the background size of the image to contain it within the input box  and background repeat to no repeat of the image
+in the form on the reviews page */
+input:required:valid{
+    box-shadow: 0em 0em 0.1em 0.1em rgb(39, 174, 93);
+    background-image: url(check.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 65%;
+    height: 30px;
+    padding: 15px;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    float: left;
+}
+
+#mailing_list{
+    background-color: #a8ccff;
+    margin-top: 155px;
+    padding: 0px;
+}
+.submit{
+    width: 16%;
+    height: 50px;
+    margin: 0px 20px  20px 20px;
+    float: left;
+    border-radius: 10px;
+}
+/*=============================================================  FOOTER CSS  ====================================================================*/
+
+/* Sets the footer background-image to a linear gradient, sets backup background-color to light blue if linear is not supported by the browser, 
+border style set to solid border, border hsl color, border width of 0.6em, bottom style of solid, border top width of 0.1em and border-radius to round 
+the corners of the footer, Set the footer to display as a block element, height of 6.5em,  clears left float and padding on the top of 1em and the bottom of 1.5em */
+footer {
+    background-image: linear-gradient(white,rgb(48, 98, 204));
+    background-color: #83A0DD;
+    border-style: solid;
+    border-color: hsl(228, 94%, 33%);
+    border-width: 0.5em;
+    border-bottom-style: solid;
+    border-top-width: 0.1em ;
+    border-radius: 0em 0em 3em 3em;
+    display:block;
+    height: 6em;
+    clear: left;
+    padding: 1em 0em 1em 0em;
+}
+
+
+
+/* This CSS sets all  box sizing to border box, with padding top of .5em units */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+
+/*============================================================  Cat Gif CSS ==============================================================*/
+
+/*This CSS position property is set to a fixed position and the bottom is set to 0%, 
+it is set to 5% from the right with a width of 20% and displays on all pages*/
+#cat {
+    position: fixed;
+    bottom: 0%;
+    right: 5%;
+    width: 20%;
+}
+
+
+ /*==========================================================  IMAGE CSS PHOTOS PAGE ========================================================================*/
+ 
+  /* Sets the CSS for the class "section_content" image elements to display as block elements, float left, width of 90%, height of 15em, padding set to 1em
+  on all sides, margin on all sides of 1em and border radius set to 47% to make it a circle instead of a square*/
+  .section_content img {
+    display:block;
+    float:left;
+    width: 90%;
+    height: 15em;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 47%;
+}
+
+
+/* Sets the CSS for id elements on each page , sets the text align to center the text, padding to 1em on all sides, and 
+margin left and right set to auto to center the elements on the photos page*/
+#photos,#dream, #intro, #about_me, #movie_paragraph, #book_paragraph {
+    text-align: center;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#err{
+    padding: 10px;
+}
