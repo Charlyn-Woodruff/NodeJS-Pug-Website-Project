@@ -1,0 +1,524 @@
+extends layout
+
+block content
+  link(href='https://fonts.googleapis.com/css?family=Birthstone Bounce' rel='stylesheet') 
+  link(href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet') 
+  link(href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet') 
+  link(rel="shortcut icon" type="image/png" href="https://i.postimg.cc/0jt9zrcY/favicon.png") 
+  
+  body
+        h1(id='website')  Just Moments in Time
+          nav 
+            ul 
+              li 
+              a(href="http://localhost:3000/home")  Home 
+              li 
+              a(href="http://localhost:3000/about")  About Me
+              li 
+              a(href="http://localhost:3000/schedule")  Schedule
+              li 
+              a(href="http://localhost:3000/photos")  Photos 
+              li 
+              a(href="http://localhost:3000/reviews")  Reviews
+
+  header
+        if id == "home"
+
+          main
+            h1(id='welcome')  Welcome, Namaste!
+
+            p(id='intro').
+               Welcome! Come on in, make yourself comfortable, kick back and enjoy your favorite beverage and snack while you take a look around!
+              Here you will learn more about myself and more about the world wide web and its many wonders of Html and CSS that creates the  websites and
+              webpages for you to browse!
+
+            section(class="html") 
+              h2(id="html")  HTML   
+              article 
+                
+                h3(class="author")  A Few Interesting Things I Learned About Html
+                h4(class="author")  Charlyn Woodruff 
+                h4(class="author")  Sept.22, 2022
+                div(class="article_content") 
+
+                  p.
+                    Html and CSS are very interesting topics to learn about! What so many people don't realize is that every page you visit on the web has 
+                    Html code embedded in those pages. Each page consists of Html code which displays the text, images, and content of each page. Believe it 
+                    or not every page you visit from your email to the websites you shop on has embedded code in those pages. One of the most interesting 
+                    facts that I learned about Html and the coolest is that most people don't even know that its there!
+                            
+                  p.
+                    All websites are just separate Html pages that are linked together with hyperlinks. Hyperlinks are the just the links you click on to view  
+                    a new webpage or new content on another webpage. All of these webpages are linked together by the same navigation links on every page of 
+                    website! These links are what help you to navigate any website, blog, social media, or shopping sites. Without Html there are no webpages 
+                    and without hyperlinks there is no navigation for websites.
+
+            section(class="css") 
+              h2(id="css")  CSS   
+              article 
+                
+                h3(class="author")  Without CSS Our Webpages Would Be Boring
+                h4(class="author")  Charlyn Woodruff
+                h4(class="author")  Sept. 22,2022
+                div(class="article_content") 
+
+                  p.
+                    While Html code frames the structure of a webpage, CSS is like crayons are to a coloring book. Without CSS is there is no color or design to
+                    the webpages. CSS is one of my favorite subjects to learn more about! CSS allows you to change the color of your text, titles, background 
+                    colors, add background images and so much more. CSS can be so specific that you can make only on element styled a certain way while leaving
+                    all the rest untouched. Everything you see on these pages on my website are all created with b) i) Html/i) /b)  and b) i) CSS/i) /b)   code.
+                    It's an amazing world behind the visual content you see on websites! Just like with computer programs you use, they run and perform tasks 
+                    but behind that is another amazing world of code!
+          footer
+        
+        img(id ="cat" img src="https://i.postimg.cc/ht0fzPLC/cat.gif" alt="cute cat.gif")  
+
+        if id == "about"
+
+          link(rel="shortcut icon" type="image/png" href="https://i.postimg.cc/5tfKRpxt/heart1.png") 
+
+          main
+            h1(id="about")  About Me
+            p(id="about_me").
+              We are only here for a short time, and tomorrow is <b> not</b> promised to <b> anyone</b> , so I try to make the most of each day,
+              the best I can. I hope I make happy memories for my family, friends, and classmates  and leave a small piece of myself behind. I try to treat 
+              others the way I would like to be treated and try to make other peoples days just a little better. All it takes is a smile, a hug, a funny joke,
+              or just a moment of kindness to change someones day for the better. 
+
+            section(class="html") 
+              article
+                h2 A Little Bit About My Family & Me  
+                div(class = "section_content") 
+                      
+                  p.
+                    I never know where to begin, I'm usually a pretty quiet person. I like to be around people who are at ease with who they are, who are honest
+                    and trustworthy and upfront. I don't always take life so seriously every moment of the day, I feel laughter is good for the soul and the 
+                    mind. 
+                  p.
+                    I grew up and have lived in WV most of my life. I graduated in 1986 from Brooke High School. (Ikr? thats a long time ago lol!)  
+                    At that point in time, there wasn't the world wide web internet and cell phones didn't exist then either! While in high school I took every
+                    available computer class I could and at that time we learned DOS and binary and not much more. Even then I wanted to learn more and wanted
+                    a career in computers. My family consists of my 3 daughters, my husband and myself, 7 cats, 2 hamsters, 2 fish aquariums with lots of 
+                    guppies and and 6 hermit crabs.
+      
+                  p.
+                    I married my husband in 1989, moved to Hilton Head Island, S.C. in 1990, we had our first daughter in 1993, our second daughter in 1995 
+                    and our youngest daughter in 2004. My youngest daughter just graduated from high school in May 2022. My oldest daughter graduated from WVNCC
+                    in 2015 as Registered Health Information Technician  and was hired as a WVU Medicine Hospital coder and now is enjoying being an at home 
+                    coder for them. My middle daughter graduated from the WV Corrections Academy and was a CO3 Correctional Officer at WV Doddridge County 
+                    Correctional Facility for 4 years, and  she is now a black hat coalminer in Marshall County and has a 5 year old son (my grandson) . 
+                    My children became my life, I put them first and foremost and set aside any thought of a career to raise my family and give them the best 
+                    start I could in their life.
+
+                  p.
+                      Fast forward many years to 2010 when I wanted to branch my art into areas where I didn't have to find storage for things like my polymer 
+                      clay sculptures that I made and sold. This is where I started to teach myself the art of graphic design and learning to build and change
+                      my own websites for my art. Now that my youngest daughter had graduated from high school, my husband finished his Highway Engineering 
+                      degree and graduated from Bridge Valley, I decided to pursue a degree in working with computers. This was something I've wanted to do for 
+                      myself since I graduated from high school so many years ago and now had the opportunity to do it, so with the encouragement of my 
+                      husband and my children, I enrolled in the WVNCC CIT Software Engineering degree program.
+            section(class="html") 
+              article
+                h2 My Favorite Hobbies
+                div(class = "section_content") 
+
+                  p.
+                    Hobbies are a great way to let yourself have some time to be creative or just to relax. I have many hobbies I 
+                    enjoy but never enough time to actually do them all. Some of my favorite hobbies are painting, reading mystery 
+                    or thriller books, watching Netflix, Hulu, and Paramount series or movies, coloring in adult coloring books, 
+                    making polymer clay sculptures and making graphic design elements and images on my computer. I have several different 
+                    kinds of software programs I use for my graphic designing which include Photoshop, Paint Shop Pro Ultimate 6X and 2X, 
+                    Gimp, Inkscape, Magix Xara Graphic Designer, Clip Studio Paint Pro, SmoothDraw and DrawPlus X4. As you can tell 
+                    I have numerous programs I use when designing and they all have different features which gives me alot to choose
+                    from! 
+                  p.
+                    Those are just the inside hobbies lol! Some of my favorite outside hobbies consist of photography, practicing shooting
+                    my handguns and bow, working on cars, weedeaters, lawnmowers, planting flowers and feeding the hummingbirds! My cats love
+                    to watch them from the windows. I guess you could say that I enjoy learning the "how" and "why" of things, I enjoy taking 
+                    things apart that don't work and fixing them so they work again. I love creating something from a blank canvas into 
+                    something useful or beautiful to enjoy! I would say my favorite hobby is just being creative in some way whether it be
+                    with my computer, or my art supplies.
+
+          footer
+
+        if id == "schedule"
+          main
+            h1(id="schedule")  Class Course Schedule
+            p(id="dream")  Fulfilling a dream I've had since I graduated high school many years ago!
+            section
+                
+              h2(id="WVNCC")  WVNCC College Class Course Schedule 2022 - 2026
+                div(class ="course_table" style="overflow-x:auto") 
+                  table
+                    colgroup
+                      col(span="4" id="column") 
+                      thead
+                        tr
+                          th Semester
+                          th Course Number
+                          th Course Name
+                          th Course Status
+                      tbody 
+                        tr
+                          th(rowspan="3")  Summer 2022
+                          td(class="label")  Eng 101
+                          td(class="label")  English Composition
+                          td(class="label")  Completed
+                        tr
+                          td(class="label")  Math 101
+                          td(class="label")  Intermediate Algebra
+                          td(class="label")  Completed
+                        tr
+                          td(class="label")  ORNT 090
+                          td(class="label")  Orientation
+                          td(class="label")  Completed
+                        tr
+                          th(rowspan="4")  Fall 2022
+                          td CIT 105
+                          td Operating Systems
+                          td Completed
+                        tr 
+                          td CIT 187
+                          td HTML/CSS 
+                          td Completed
+                        tr 
+                          td CIT 117
+                          td Microsoft Applications
+                          td Completed
+                        tr 
+                          td CIT 232
+                          td Intro to Programming Logic Python
+                          td Completed
+                        tr 
+                          th(rowspan="2")  Spring 2023
+                          td(class="label")  CIT 112
+                          td(class="label")  Microsoft Office Access
+                          td(class="label")  Completed
+                        tr
+                          td(class="label")  CIT 215
+                          td(class="label")  Client Side Scripting / Javascript
+                          td(class="label")  Completed
+                        tr 
+                          th(rowspan="2")  Fall 2023
+                          td CIT 205
+                          td Web Development Tools
+                          td Completed
+                        tr 
+                          td CIT 160
+                          td Powerpoint Publisher
+                          td Completed
+                        tr 
+                          th(rowspan="2")  Spring 2024
+                          td(class="label")  CIT 176
+                          td(class="label")  Visual Basic Programming
+                          td(class="label")  Completed
+                        tr 
+                          td(class="label")  CIT 272
+                          td(class="label")  Java - Advanced Obj Oriented Programming
+                          td(class="label")  Completed
+                        tr 
+                          th(rowspan="2")  Fall 2024
+                          td CIT 253
+                          td Web Applications
+                          td Completed
+                        tr 
+                          td CIT 237
+                          td Advanced Database
+                          td Completed
+                        tr 
+                          th(rowspan="2")  Spring 2025
+                          td(class="label")  CIT 227
+                          td(class="label")  Applied Programming
+                          td(class="label")  Completed
+                        tr 
+                          td(class="label")  CIT 220
+                          td(class="label")  Unix / Linux
+                          td(class="label")  Completed
+                        tr 
+                          th(rowspan="2")  Fall 2025
+                          td CIT 250
+                          td IT Analysis, Design Career Prep
+                          td Presently taking
+                        tr 
+                          td  SPCH 105
+                          td Fundamentals of Speech
+                          td  Presently taking 
+                       
+                        tr
+                          th(rowspan="1")  Spring 2026
+                          td(class="label")  CIT 291
+                          td(class="label")  Internship Certification
+                          td(class="label")  Plan to Enroll
+                    tfoot
+                        tr 
+                          th Total Credit Hours
+                          td 
+                          td
+                          td 61 hours               
+          footer 
+
+        if id == "photos"
+          link(rel="shortcut icon" type="image/png" href="https://i.postimg.cc/5tfKRpxt/heart1.png") 
+          main
+            h1(id="photographs")  My Favorite Photographs
+            p(id="photos").
+              I love taking photographs when I have spare time, my photography encompasses many subjects. From photographs of 
+              my children, to the outdoors, animals in nature and many of my crazy cats. My camera lens  catches a piece of history, 
+              a piece of my life, one moment at a time.  These are moments that can not be recreated and you can't get back, its holding 
+              that memory, emotion,  or special moment in time in a photograph! 
+
+            section(class="photo_page")  
+              h2 Favorite Family Photographs
+              div(class="section_content") 
+                p(id="photos").
+                  Some of my favorite moments in time captured in a photograph!
+
+                figure
+                  img(src = "images/jessica_high_school_graduation.jpg" alt = "Jessica High School Graduation" ) 
+                  figcaption  Jessica HS Graduation     
+                figure
+                  img(src = "images/elizabeth_correctional_officer_graduation.jpg" alt = "Elizabeth WVCO Graduation" id="square") 
+                  figcaption Elizabeth WVCO Graduation
+                figure
+                  img(src = "images/keith_college_graduation.jpg" alt = "Keith College Graduation") 
+                  figcaption Keith College Graduation  
+                figure
+                  img(src = "images/Jessica1.jpg" alt = "Jessica and Me"  ) 
+                  figcaption  Jessica & Me at Keith's Graduation    
+                figure
+                  img(src = "images/Elizabeth1.jpg" alt = "Elizabeth and Me" id="square") 
+                  figcaption Elizabeth & Me trying photo filters
+                figure
+                  img(src="images/Amanda1.jpg" alt = "Amanda and Me") 
+                  figcaption Amanda & Me at Chincoteague Beach
+
+            section(class="photo_page") 
+                h2 Our Furry Family Members 
+                div(class="section_content") 
+                  p(id="photos").
+                    Photographs of our furry family members
+  
+                  figure
+                    img(src ="images/smudge1.jpg" alt = "Smudge" id="square") 
+                    figcaption Smudge
+                  figure
+                    img(src = "images/misty.jpg" alt = "Misty"  ) 
+                    figcaption Misty  
+                  figure
+                    img(src = "images/cinder1.jpg" alt = "Cinder" id="square") 
+                    figcaption Cinder
+                  figure
+                    img(src = "images/travis.jpg" alt = "Travis") 
+                    figcaption Travis 
+                  figure
+                    img(src = "images/twinkie.jpg" alt = "Twinkie" ) 
+                    figcaption Twinkie
+                  figure 
+                    img(src = "images/Loki.jpg" alt = "Loki") 
+                    figcaption Loki
+                  figure 
+                    img(src = "images/Romeo.jpg" alt = "Romeo") 
+                    figcaption Romeo
+
+            section(class="photo_page") 
+                h2 Angels don't always have wings ... Sometimes they have "whiskers"
+                div(class="section_content") 
+                  p(id="photos").
+                    Always Loved & Forever Missed <br> Rest in peace our sweet angels
+                  figure
+                    img(src = "images/Sparta.jpg" alt = "Sparta") 
+                    figcaption Sparta
+                  figure
+                    img(src = "images/casper.jpg" alt = "Casper") 
+                    figcaption Casper 
+                  figure
+                    img(src ="images/oreo.jpg" alt = "Oreo" ) 
+                    figcaption  Oreo  
+                  figure
+                    img(src ="images/mittens.jpg" alt = "Mittens" ) 
+                    figcaption  Mittens  
+                  figure
+                    figcaption 
+                      p(id="photo").
+                        <br>Angels don't always have wings <br>  Sometimes they have "whiskers" <br>Sparta 11/18/22<br> Casper 3/07/24<br>Oreo 5/17/25<br>Mittens 10/16/25<br><br>
+
+            section(class="photo_page") 
+              h2 Always the Beach
+              div(class="section_content") 
+                p(id="photos").
+                  Some of my favorite photographs at the beach, the sun, the breeze, the sound of the ocean. <br> 
+                                    It is where I go to find peace and recharge my soul.
+                figure
+                  img(src ="images/beach1.jpg" alt = "Chincoteague VA Sunset" id="square" ) 
+                  figcaption  Chincoteague VA Sunset  
+                figure
+                  img(src ="images/beach5.jpg" alt = "Chincoteague Island Beach" id="square") 
+                  figcaption Chincoteague VA Beach
+                figure
+                  img(src = "images/beach2.jpg" alt = "Chincoteague Island Sunset" id="square") 
+                  figcaption Chincoteague VA Sunset
+                figure
+                  img(src = "images/beach6.jpg" alt = "Virginia Beach" id="square") 
+                  figcaption Chincoteague VA 
+                figure
+                  img(src = "images/beach7.jpg" alt = "Ocean City Beach" id="square") 
+                  figcaption Ocean City MD
+                figure
+                  img(src = "images/beach8.jpg" alt = "Ocean City Beach" id="square") 
+                  figcaption Ocean City  MD
+
+            section(class="photo_page") 
+                h2 Favorite Flower Photographs
+                div(class="section_content") 
+                  p(id="photos").
+                    Some of my favorite photographs of the flowers from my garden!
+                  figure
+                    img(src ="images/flowers1.jpg" alt = "Azalea") 
+                    figcaption  Azalea 
+                  figure
+                    img(src ="images/flowers2.jpg" alt = "Red Rose") 
+                    figcaption Red Rose
+                  figure
+                    img(src = "images/flowers3.jpg" alt = "Shasta Daisy") 
+                    figcaption Shasta Daisy
+                  figure
+                    img(src = "images/flowers4.jpg" alt = "Candycane Roses") 
+                    figcaption Candycane Roses
+                  figure
+                    img(src = "images/flowers5.jpg" alt = "Pink Roses") 
+                    figcaption Pink Roses
+                  figure
+                    img(src = "images/flowers7.jpg" alt = "Enchanted Roses") 
+                    figcaption Enchanted Roses
+
+            section(class="photo_page") 
+                h2 Favorite Funny Memes
+                div(class="section_content") 
+                  p(id="photos").
+                    Some of my favorite funny memes to make you laugh!
+                  figure
+                    img(src ="images/meme1.jpg" alt = "Funny Meme" id="square") 
+                    figcaption  Laughter
+                  figure
+                    img(src ="images/meme2.jpg" alt = "Funny Meme" id="square") 
+                    figcaption Is
+                  figure
+                    img(src = "images/meme3.jpg" alt = "Funny Meme" id="square") 
+                    figcaption Good
+                  figure
+                    img(src = "images/meme4.jpg" alt = "Funny Meme" id="square") 
+                    figcaption For
+                  figure
+                    img(src = "images/meme5.jpg" alt = "Funny Meme" id="square") 
+                    figcaption The
+                  figure
+                    img(src = "images/meme6.jpg" alt = "Funny Meme" id="square") 
+                    figcaption Soul
+
+          footer    
+
+        if id == "reviews"
+          main 
+            h1(id="movies")  Movies Movies Movies!
+            p(id="movie_paragraph").
+                 One of my favorite things to do is watch movies of all kinds ~ NetFlix, Hulu, Amazon Prime! I would say my favorite genres are sci-fi,
+                 mystery-thriller, suspense, and comedies! Some of my favorite movies are Star Trek, Guardians of the Galaxy, Tomorrowland, Legion,
+                 Stephen King's "It" and "Rose Red".
+            section
+              div
+                section
+                  form(action="action_page.php" id="form" method="post") 
+                  h2 Review Your Favorite Movie
+                  h2
+                    fieldset(id="personal") 
+                        legend Information
+                        p(class="review_page").
+                        label(for="fname" class="block")  First name:
+                        input(type="text" id="fname" name="fname" maxlength="13" pattern="[A-Za-z]{1,13}" placeholder="First name" required) 
+                      
+                        p(class="review_page").
+                        label(for="lname" class="block")  First name:
+                        input(type="text" id="lname" name="lname" maxlength="13" pattern="[A-Za-z]{1,13}" placeholder="Last name" required) 
+                      
+                        p(class="review_page").
+                        label(for="email" class="block")  Email:
+                        input(type="email" id="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required) 
+                      
+                        p(class="review_page").
+                        label(for="phone" class="block")  Phone:
+                        input(type="tel" id="phone" name="phone" placeholder="234-567-8910" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required) 
+                    
+                        p(class="review_page").
+                        label(for="date" class="block" )  Date:
+                        input(type="date" id="date" name="date" value=" Date" required) 
+
+                        p(id="mailing_list").
+                          Would you like to subscribe to our mailing list?
+
+                        label(for="subscribe") Yes
+                        input(type="radio" id="subscribe" name="subscribe" checked="checked")
+
+                        label(for="subscribe") No
+                        input(type="radio" id="subscribe" name="subscribe" )
+                        
+                        
+                        
+
+                    fieldset(id="movie_review") 
+                      legend Favorite Movie Review
+
+                    
+                      p(class="review_page") 
+                      label(for="movie1")  Fantasy
+                      input(type="checkbox" id="movie1" name="movie1" value="Fantasy" ) 
+                      
+                      label(for="movie2")  Sci-fi
+                      input(type="checkbox" id="movie2" name="movie2" value="Sci-fi" ) 
+                      
+                      label(for="movie3")  Suspense
+                      input(type="checkbox" id="movie3" name="movie3" checked="checked" value="Suspense" ) 
+                      
+                      label(for="movie4")  Comedy
+                      input(type="checkbox" id="movie4" name="movie4" value="Comedy" ) 
+                      
+
+                      p(class="review_page") 
+                      label(for="title" class="block")  Movie Title: 
+                      input(type="text" id="title" name="title"  pattern="[A-Za-z]{1,24}" placeholder="Title of Movie" required) 
+
+                      p(class="review_page") 
+                      label(for="studio" class="block")  Studio:
+                      input(type="text" id="studio" name="studio"  pattern="[A-Za-z]{1,24}" placeholder="Studios name" required) 
+
+                      p(class="review_page") 
+                      label(for="year" class="block")  Year released:
+                      input(type="text" id="year" name="year" placeholder="2022"  pattern="[0-9]{4}" required) 
+                      
+                      p(class="review_page") 
+                      label(for="rating") Rate your movie:
+                      select(id="rate" name="movie") 
+                        option(value="5 stars") 5 Stars
+                        option(value="4 stars") 4 Stars
+                        option(value="3 stars") 3 Stars
+                        option(value="2 stars") 2 Stars
+                        option(value="1 star") 1 Star
+                      p(class="review_page")
+                      label(for="comments") Review Comments
+                      textarea(id="comments" name="comments" placeholder="Write your Review here")
+
+                  p(class="submit_buttons")
+                  input(type="submit" name="submit_review" value="Submit your review" class="submit")
+                  input(type="reset" name="submit_reset" value="Reset to Default Value" class="submit")
+          footer
+
+        if id != "home"
+          if id != "about"
+            if id != "schedule"
+              if id != "photos"
+                if id != "reviews"
+
+                  main
+                    div(class = "section_content" id='err') 
+                    
+                     h1(style="text-align:center; font-size:3em; background-color:#76a0fb") 404 <br>Sorry <br>This webpage <br>is not a valid Url
+                  footer
